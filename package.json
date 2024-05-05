@@ -21,7 +21,7 @@
     "geist": "^1.2.0",
     "lucide-react": "^0.376.0",
     "next": "^14.0.4",
-    "next-auth": "5.0.0-beta.4",
+    "next-auth": "^4.24.7",
     "pdfjs-dist": "^4.2.67",
     "postgres": "^3.4.3",
     "react": "^18.2.0",
