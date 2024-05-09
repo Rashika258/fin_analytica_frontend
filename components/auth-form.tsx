@@ -37,7 +37,9 @@ const AuthForm = ({ className, ...props }: AuthFormProps) => {
     const signInResult = settledResult.status === "fulfilled" ? settledResult.value: null;
 
     if(!signInResult?.ok) {
-      return toast
+      return toast({
+        
+      })
     }
 
   }
