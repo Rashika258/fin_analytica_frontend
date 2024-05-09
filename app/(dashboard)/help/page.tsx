@@ -1,11 +1,12 @@
-import React from 'react';
+import { TopMainContent } from "@/components/top-main-content";
 
-const HelpPage = () => {
+export default function HelpPage() {
   return (
-    <div>
-      HelpPage
-    </div>
+    <>
+      <TopMainContent title="Help" displayUploadButton />
+      <div className="m-4">
+        <h1>Content</h1>
+      </div>
+    </>
   );
 }
-
-export default HelpPage;
